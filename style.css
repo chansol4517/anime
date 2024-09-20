@@ -10,7 +10,7 @@ h1 {
 section {
   width: 1000px;
   height: 800px;
-  border: 1px solid black;
+  border: 1px solid #a5ff81;
   position: relative;
 }
 
