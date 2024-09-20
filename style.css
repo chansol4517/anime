@@ -3,23 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
-  font: bold 50px/1 "arial";
-  color: #000;
-}
-section {
-  width: 1000px;
-  height: 800px;
-  border: 1px solid #a5ff81;
-  position: relative;
+body {
+  height: 500vh;
+  background-image: linear-gradient(
+    to bottom,
+    hotpink,
+    rgb(248, 172, 255),
+    rgb(255, 245, 156),
+    rgb(172, 255, 172),
+    aqua,
+    rgb(140, 190, 255)
+  );
 }
 
-article {
-  width: 200px;
-  height: 200px;
-  background-color: pink;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-radius: 5px;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+nav button {
+  padding: 5px 10px;
+  cursor: pointer;
 }
